@@ -19,7 +19,7 @@ print(mod_time)
 files_in_dir = os.listdir(pdf_dir)
 
 
-
+#
 # only use files created in last 15 minutes
 # Filter out all non-PDF files
 pdf_files = [f for f in files_in_dir if f.endswith(".pdf") and datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(pdf_dir, f))) > cutoff]
