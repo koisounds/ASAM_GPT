@@ -63,7 +63,7 @@ window.mainloop()
 
 
 #GPT
-openai.api_key = "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"
+openai.api_key = ""
 
 #give gpt an example of a form
 completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": f" write a biopsychosocial from"
